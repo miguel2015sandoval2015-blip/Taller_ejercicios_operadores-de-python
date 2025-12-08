@@ -1,10 +1,10 @@
 #******** zona de fucniones ******************
 def capturar_numero():
-    numero = int(input("digitar el numero a dividir"))
+    numero = float(input("digitar el numero a dividir"))
     return numero
 
 def capturar_divisor():
-    divisor = int(input("digite el divisor: "))
+    divisor = float(input("digite el divisor: "))
     return divisor
 
 def procesar_datos(numero,divisor):
@@ -23,3 +23,4 @@ divisor = capturar_divisor()
 cociente = procesar_datos(numero,divisor)
 resultado = mostrar_resultado(cociente)
 despedida = chao_con_adios()        
+
